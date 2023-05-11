@@ -1,0 +1,38 @@
+.controller {
+  display: flex;
+}
+.controller * {
+  margin: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px;
+  font-weight: 600;
+}
+.controller *:active {
+  box-shadow: 0px 0px 2px;
+  background-color: aqua;
+}
+
+#maBenhNhan,
+#matKhau,
+#ngayKham,
+#chuyenKhoa {
+  width: 100%;
+}
+
+.option-loai-dich-vu {
+  display: flex;
+  justify-content: space-around;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.modal-body > input,
+.modal-body > label {
+  margin-top: 10px;
+}
+.err {
+  color: red;
+}
